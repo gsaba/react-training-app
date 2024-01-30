@@ -5,7 +5,6 @@ import Climbers from "./Climbers";
 function App() {
   return (
     <div className="App">
-        <ClimberFilters></ClimberFilters>
         <Climbers></Climbers>
     </div>
   );
