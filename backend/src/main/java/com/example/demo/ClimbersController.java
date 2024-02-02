@@ -11,7 +11,7 @@ public class ClimbersController {
 
     private List<Climber> climbers = List.of(
             new Climber("Mario Rossi", new Date()),
-            new Climber("Bella Dinotte", new Date())
+            new Climber("Bella Dinotte", null)
     );
 
     @CrossOrigin
